@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'cs-2';
+    src: url('./fontes/cs_regular.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url(./imagens/cs2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding: 40px;
+}
+.container{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1,nav li{
+    display: inline;
+    font-family: 'cs-2';
+}
+header h1{
+    font-size: 27;
+}
+
+header .container{
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-evenly;
+
+}
+header nav li a{
+    font-size: 27px;
+    text-decoration: none;
+    color: black;
+}
+header nav li a:focus{
+    color: white;
+}
+
+section{
+    display: inline;
+}
+.formulario {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.formulario form input{
+    font-family: 'Oswald', sans-serif;
+    height: 28px;
+    
+    
+    
+}
+form button{
+    height: 38px;
+    width: 45px;
+    font-family: 'cs-2';
+    font-size: 16px;
+    background-color: rgba(226, 168, 52, 0.564);
+}
+form button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    margin-top: 790px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+
+
